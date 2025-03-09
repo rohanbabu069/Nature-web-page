@@ -6,5 +6,26 @@
     box-sizing: border-box;
 }
 :root{
-    --primary:
+    --primary:rgb(6, 206, 196);
+    --secondary:rgb(214, 214, 100);
+    --white:#efefef;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+    color:var(--primary);
+}
+
+#main{
+    background-image: url(./image7.jpeg);
+    min-height:50vh;
+    background-position:bottom center;
+    background-size:cover;
+}
+.container{
+    padding:16px;
+    max-width:1200px;
+    margin: auto;
+}
+nav{
+    display:flex;
 }

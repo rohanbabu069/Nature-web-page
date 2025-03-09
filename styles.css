@@ -28,4 +28,21 @@ body{
 }
 nav{
     display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+nav img{
+    height:35px
+}
+.nav-list{
+    display:flex;
+    list-style:none;
+    gap:20px;
+}
+a{
+    text-decoration: none;
+    /*text-decoration: none; it will remove underline */
+}
+.nav-list a{
+    color:var(--white);
 }

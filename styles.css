@@ -245,5 +245,9 @@ footer .container{
     #about-us .container{
         flex-direction:column;
         gap:20px;
-    }
+   }
+   footer .container{
+    flex-direction:column;
+    gap:16px;
+   }
 }

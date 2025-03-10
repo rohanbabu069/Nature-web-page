@@ -114,11 +114,15 @@ display:none;
         flex-direction:column;
         position:absolute;
         top:0px;
-        right:0px;
+        right:-900px;
         width:80%;
         padding-top:80px;
         margin-bottom:2px;
         padding-bottom:13px;
+    }
+    .nav-list.active{
+        right:0px
+        /* .nav-list.active if a space in active class and .nav-list class the this query will not work properly  */
     }
     .nav-list li:not(:nth-child(5)){
         text-align:left;

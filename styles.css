@@ -96,7 +96,19 @@ a {
     margin-bottom:10px;
 
 }
+.menu-btn{
+position:absolute;
+top:20px;
+right:20px;
+width:30px;
+display:none;
+}
+
 @media screen and (max-width:520px){
+    .menu-btn{
+        display:block;
+        color: white;
+    }
     .nav-list{
         background:grey;
         flex-direction:column;

@@ -19,6 +19,7 @@
                     <li><a href="#">Contact</a></li>
                     <li><button class="btn btn-secondary">202-505-808</button></li>
                 </ul>
+                <img class="menu-btn" src="menu.png" alt="menu-image">
             </nav>
             <div class="main-content">
                 <h1 class="intro-heading">We all love</h1>
@@ -101,5 +102,11 @@
         </div>
     </footer>
 </body>
-
+<script>
+    const navBtn=document.querySelector('.menu-btn')
+    const navList=document.querySelector('.nav-list')
+    navBtn.addEventListener("click",function(){
+        navList.classList.toggle('active');
+    })
+</script>
 </html>

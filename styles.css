@@ -209,7 +209,12 @@ footer .container{
     justify-content:space-between;
     align-items: center;
 }
-
+.footer-links{
+    display:flex;
+    list-style: none;
+    gap:16px;
+    align-items: center;
+    }
 @media screen and (max-width:520px){
     .menu-btn{
         display:block;
